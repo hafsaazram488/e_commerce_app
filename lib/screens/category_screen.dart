@@ -28,7 +28,6 @@ class CategoryScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
-          // Search Bar
           Padding(
             padding: const EdgeInsets.all(12.0),
             child: TextField(
@@ -79,7 +78,6 @@ class CategoryScreen extends StatelessWidget {
                 itemBuilder: (context, index) {
                   String category = filteredCategories[index];
 
-                  // Get the asset image path for the category
                   final imagePath = categoryImages[category.toLowerCase()] ??
                       "assets/placeholder.png"; // Default placeholder
 
