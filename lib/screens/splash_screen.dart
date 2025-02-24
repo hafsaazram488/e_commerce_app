@@ -59,12 +59,12 @@ class _SplashScreenState extends State<SplashScreen> {
           ),
           AnimatedPositioned(
             duration: Duration(seconds: 1),
-            left: _textPosition, // Center horizontally
+            left: _textPosition,
             bottom: MediaQuery.of(context).size.height *
-                0.2, // Adjusted bottom position
+                0.2,
             child: Container(
               width: MediaQuery.of(context).size.width *
-                  0.8, // Ensure text stays readable
+                  0.8, 
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center, // Center text
                 children: [
